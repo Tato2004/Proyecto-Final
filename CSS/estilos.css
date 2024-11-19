@@ -4,13 +4,13 @@ body {
     margin: 0; /* Elimina el margen predeterminado alrededor del cuerpo del documento */
     font-family: 'Roboto', sans-serif; /* Establece la fuente para todo el texto en la página */
     line-height: 1.6; /* Define la altura de línea para el texto, mejorando la legibilidad */
-    background-color: #f5f7fa; /* Establece un color de fondo suave para la página */
+    background-color: white; /* Establece un color de fondo suave para la página */
     color: #333; /* Define un color de texto general que es más suave que el negro puro */
 }
 
 /* Estilos para el encabezado */
 header {
-    background-color: rgb(32, 93, 203); /* Aplica un color de fondo azul al encabezado */
+    background-color: #fb9156; /* Aplica un color de fondo azul al encabezado */
     color: white; /* Establece el color del texto en blanco dentro del encabezado */
     padding: 15px 20px; /* Añade espacio interno (padding) alrededor del contenido del encabezado */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil debajo del encabezado para dar un efecto de profundidad */
@@ -73,7 +73,7 @@ header {
     border-radius: 4px; /* Redondea ligeramente las esquinas del enlace activo */
 }
 .dropbtn {
-    background-color:  rgb(32, 93, 203);
+    background-color:  #fb9156;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -90,7 +90,7 @@ header {
   .dropup-content {
     display: none;
     position: absolute;
-    background-color:  rgb(32, 93, 203);
+    background-color:  #fb9156;
     min-width: 160px;
     
   }
@@ -109,7 +109,7 @@ header {
   }
   
   .dropup:hover .dropbtn {
-    background-color: #2980B9;
+    background-color: #fc8d7c;
   }
 
 @media screen and (max-width: 600px) {
@@ -201,7 +201,7 @@ main {
 
 /* Estilos para el pie de página */
 footer {
-    background-color: rgb(32, 93, 203); /* Establece un color de fondo azul para el pie de página */
+    background-color: #fb9156; /* Establece un color de fondo azul para el pie de página */
     color: white; /* Establece el color del texto en blanco */
     text-align: center; /* Centra el texto dentro del pie de página */
     padding: 5px 0; /* Añade un pequeño padding interno al pie de página */
