@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Yale School of Art</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo-title">
+        <img id="icono1" src="IMAGENES/logo2.jpg" alt="Eventos">
+        <h1 id="superior">Yale School ­of Art</h1>
+    </div>
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="./index.html">Inicio</a></li>
+            <li class="dropup">
+                <button class="dropbtn">Eventos</button>
+                <div class="dropup-content">
+                    <a href="./exposiciones.html">Exposiciones</a>
+                    <a href="./publicaciones.html">Publicaciones</a>
+                    <a href="./publicos.html">Eventos Públicos</a>
+                </div>
+            </li>
+            <li><a href="#">Dispositivos</a></li>
+            <li><a href="#">Contáctanos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="mission-text">
+        <h1>Eventos Destacados</h1>
+        <p>
+            La Yale School of Art organiza eventos exclusivos a lo largo del año, incluyendo exposiciones, talleres,
+            y conferencias abiertas al público. Descubre nuestras actividades más recientes y cómo puedes participar.
+        </p>
+    </div>
+
+    <!-- Galería de eventos -->
+    <div class="image-gallery">
+        <input type="radio" name="slider" id="slide1" checked>
+        <div class="slides">
+            <div class="slide">
+                <img src="IMAGENES/imagen3.png" alt="Evento 1">
+                <p class="caption">Exposición de Arte Contemporáneo</p>
+            </div>
+            <div class="slide">
+                <img src="IMAGENES/imagen2.jpg" alt="Evento 2">
+                <p class="caption">Taller de Escultura Moderna</p>
+            </div>
+            <div class="slide">
+                <img src="IMAGENES/imagen2.jpg" alt="Evento 3">
+                <p class="caption">Conferencia: Arte en la Era Digital</p>
+            </div>
+        </div>
+
+        <!-- Controles de navegación manual del slider -->
+        <div class="navigation">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
